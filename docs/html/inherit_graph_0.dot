@@ -1,0 +1,12 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="IPAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classIPAddress.html",tooltip="Abstract base class representing an IP address."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="IPv4Address",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classIPv4Address.html",tooltip="Represents an IPv4 address."];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="IPv6Address",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classIPv6Address.html",tooltip="Represents an IPv6 address."];
+}
